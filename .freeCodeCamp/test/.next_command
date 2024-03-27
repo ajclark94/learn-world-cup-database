@@ -89,3 +89,4 @@ chmod +x queries.sh
 pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 git config --global user.name "austin"
 git config --global user.email "115447290+ajclark94@users.noreply.github.com"
+git commit --amend --reset-author
